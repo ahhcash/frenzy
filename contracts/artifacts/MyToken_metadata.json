@@ -381,6 +381,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "decimals",
 				"outputs": [
@@ -984,11 +997,11 @@
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0xb7919d68780923086c60b35160453524b485605553d5f9249f6d9f58b5e220f2",
+			"keccak256": "0x2c84680dfcd696efad273f6c15ecfaa71580104f27547149d917202c9d601d59",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f934327d4f5919a859bb9b4d8f4857fbc655dd6bee726f018ccbc4af1e7a1c72",
-				"dweb:/ipfs/QmWtaX5vXhL1yaDFFTG3ZesqHre6xhkKjxdAgXZ5HDwuV1"
+				"bzz-raw://924446cb253c773532212c20c303a3559fd0eeaec2ad53503e7e60c96b8e36e1",
+				"dweb:/ipfs/QmS4cXL3gPrWHwYzcDtEmqCBPz216rc3X9rmSxicNopfyw"
 			]
 		}
 	},

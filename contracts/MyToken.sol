@@ -24,4 +24,9 @@ contract MyToken is ERC20, ERC20Permit, Ownable {
         uint256 amountWithDecimals = amount * (10**decimals());
         _mint(to, amountWithDecimals);
     }
+
+    function burn(uint256 amount) public {
+        uint256 amountWithDecimals = amount * (10**decimals());
+        _burn(msg.sender, amountWithDecimals);
+    }
 }
